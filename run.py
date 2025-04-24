@@ -3,7 +3,7 @@ import sys
 from tornado.options import define, options
 
 if __name__ == '__main__':
-    define("xsrf", default=False, help="Enable XSRF protection", type=bool)
+    # define("xsrf", default=False, help="Enable XSRF protection", type=bool)
     define("xheaders", default=False, help="Enable X-headers", type=bool)
     define("origin", default="*", help="Origin for CORS", type=str)
     
